@@ -8,8 +8,9 @@ public class EnlargeServicesContractOption extends ServicesContractOption {
 
     @Override
     public void interact() {
-        Date date = new Date(new Console().readString("Introduzca la fecha en formato dd/mm/yyyy:"));
-        Double factor = new Console().readDouble("Introduzca el factor:");
+        Date date = new Date(Console.getInstance().readString("Introduzca la fecha en formato dd/mm/yyyy:"));
+        Double factor = Console.getInstance().readDouble("Introduzca el factor:");
+        Console.getInstance().writeln();
         servicesContract.enlarge(date, factor);
     }
 

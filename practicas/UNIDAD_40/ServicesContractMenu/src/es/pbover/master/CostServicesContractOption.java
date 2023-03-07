@@ -8,9 +8,9 @@ class CostServicesContractOption extends ServicesContractOption {
 
     @Override
     public void interact() {
-        Console console = new Console();
-        console.writeln("Coste anual del contrato: " + servicesContract.getCost() + " Euros");
-        console.writeln(servicesContract.getCost() == 102200 ? "" : "ERROR!!!!");
+        Console.getInstance().writeln();
+        Console.getInstance().writeln("Coste anual del contrato: " + servicesContract.getCost() + " Euros");
+        Console.getInstance().writeln(servicesContract.getCost() == 102200 ? "" : "ERROR!!!!");
     }
 
 }

@@ -11,7 +11,7 @@ class ServicesContractMenu extends DynamicMenu {
 
     @Override
     protected void addOptions() {
-        this.add(new PrintServicesContractOption(this.servicesContract));
+        this.add(new ListServicesContractOption(this.servicesContract));
         this.add(new CostServicesContractOption(this.servicesContract));
         this.add(new CancelServicesContractOption(this.servicesContract));
         this.add(new EnlargeServicesContractOption(this.servicesContract));

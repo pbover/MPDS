@@ -8,7 +8,8 @@ public class CancelServicesContractOption extends ServicesContractOption {
 
     @Override
     public void interact() {
-        Date date = new Date(new Console().readString("Introduzca la fecha en formato dd/mm/yyyy:"));
+        Date date = new Date(Console.getInstance().readString("Introduzca la fecha en formato dd/mm/yyyy:"));
+        Console.getInstance().writeln();
         servicesContract.cancel(date);
     }
 
