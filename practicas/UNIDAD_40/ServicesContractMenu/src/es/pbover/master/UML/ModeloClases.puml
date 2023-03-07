@@ -1,0 +1,22 @@
+@startuml
+class ServicesContract
+abstract class Menu
+abstract class DynamicMenu
+abstract class IterativeMenu
+abstract class QuitMenu
+class ServicesContractMenu
+abstract class Option
+abstract class ServicesContractOption
+class CancelServicesContractOption
+class CostServicesContractOption
+class EnlargeServicesContractOption
+class ListServicesContractOption
+class PrintServicesContractOption
+class QuitOption
+class ShiftServicesContractOption
+class Date
+class Month
+class Format
+class Console
+class Interval
+@enduml
