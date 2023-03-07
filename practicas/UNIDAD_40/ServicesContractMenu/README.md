@@ -1,6 +1,6 @@
 ## Introducción
 
-Práctica de Master de Programación i Diseño de software. Escuela IT.
+Práctica de Master de Programación y Diseño de software. Escuela IT.
 
 Unidad: 40
 
