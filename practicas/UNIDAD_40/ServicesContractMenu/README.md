@@ -1,18 +1,17 @@
-## Getting Started
+## Introducción
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Práctica de Master de Programación i Diseño de software. Escuela IT.
 
-## Folder Structure
+Unidad: 40
 
-The workspace contains two folders by default, where:
+Ejercicio: ServicesContractMenu
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Objetivo
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Aplicar los conceptos de menu a un modelo de ServiceContract
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## NOTA
 
-## Dependency Management
+El código se ha consultado de esta fuente https://github.com/USantaTecla-tech-java/src/tree/main/src/main/java/es/usantatecla/aX_managers/services/a3_enums
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Contenido Creado por Luís Fernandez. EscuelaIT
