@@ -18,5 +18,30 @@ class Date
 class Month
 class Format
 class Console
-class Interval
+
+Option <|.. ServicesContractOption
+
+ServicesContractOption <|.. CancelServicesContractOption
+ServicesContractOption <|.. CostServicesContractOption
+ServicesContractOption <|.. EnlargeServicesContractOption
+ServicesContractOption <|.. ListServicesContractOption
+ServicesContractOption <|.. PrintServicesContractOption 
+ServicesContractOption <|.. QuitOption 
+ServicesContractOption <|.. ShiftServicesContractOption 
+
+
+class Menu {
+ - String title
+}
+
+
+Menu <|.. QuitMenu
+QuitMenu <|.. IterativeMenu
+IterativeMenu <|.. DynamicMenu
+DynamicMenu <|.. ServicesContractMenu 
+
+
+Menu -->"0..*" Option
+ServicesContractMenu --> ServicesContract
+
 @enduml
