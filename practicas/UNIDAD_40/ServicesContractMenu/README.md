@@ -14,4 +14,4 @@ Aplicar los conceptos de menu a un modelo de ServiceContract
 
 El código se ha consultado de esta fuente https://github.com/USantaTecla-tech-java/src/tree/main/src/main/java/es/usantatecla/aX_managers/services/a3_enums
 
-Contenido Creado por Luís Fernandez. EscuelaIT
+Contenido Creado por Luís Fernández. EscuelaIT
