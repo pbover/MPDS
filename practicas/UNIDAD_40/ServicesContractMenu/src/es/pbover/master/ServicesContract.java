@@ -30,7 +30,6 @@ class ServicesContract {
 	public void desplazar(Date date, double desplazamiento) {
 		assert date.getYear() == year;
 		assert timetable[date.daysElapsedYear()] != null;
-
 		timetable[date.daysElapsedYear()].shift(desplazamiento);
 	}
 
